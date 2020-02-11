@@ -2,8 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="%PUBLIC_URL%/logo192.png" />
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="index.css" rel="stylesheet">
+    <link href="App.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
@@ -24,11 +29,31 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Joshua Neizer</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+      $(window).on("load",function() {
+          $(window).scroll(function() {
+              var windowBottom = $(this).scrollTop() + $(this).innerHeight();
+              $(".fadeA, .fadeB").each(function() {
+                /* Check the location of each desired element */
+                var objectBottom = $(this).offset().top + $(this).outerHeight();
+                
+                /* If the element is completely within bounds of the window, fade it in */
+                if (objectBottom < windowBottom) { //object comes into view (scrolling down)
+                    if ($(this).css("opacity")==0) {$(this).fadeTo(500,1);}
+                } else { //object goes out of view (scrolling up)
+                    if ($(this).css("opacity")==1) {$(this).fadeTo(500,0);}
+                }
+              });
+          }).scroll(); //invoke scroll-handler on page-load
+      });      
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <div class="titlebar"></div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

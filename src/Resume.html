@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <link href="index.css" rel="stylesheet">
+        <link href="App.css" rel="stylesheet">
+        <link rel="icon" href="../public/logo192.png" />
+        <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+        <title>Joshua Neizer &#8226; Resume</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#fade").fadeIn(1000);
+            });
+
+            $(window).on("load",function() {
+                $(window).scroll(function() {
+                    var windowBottom = $(this).scrollTop() + $(this).innerHeight();
+                    $(".fadeA, .fadeB").each(function() {
+                    /* Check the location of each desired element */
+                    var objectBottom = $(this).offset().top + $(this).outerHeight();
+                    
+                    /* If the element is completely within bounds of the window, fade it in */
+                    if (objectBottom < windowBottom) { //object comes into view (scrolling down)
+                        if ($(this).css("opacity")==0) {$(this).fadeTo(500,1);}
+                    } else { //object goes out of view (scrolling up)
+                        if ($(this).css("opacity")==1) {$(this).fadeTo(500,0);}
+                    }
+                    });
+                }).scroll(); //invoke scroll-handler on page-load
+            });
+        </script>
+    </head>
+    <body>
+        <div class="home">
+            <div class ="titlebar">
+                <div class="nav">
+                    <button class="box" >
+                        <a class= "link" href="Home.html">Home</a>
+                    </button>
+                    <button class="box active" >
+                        <a class= "link" href="Resume.html">Resume</a>
+                    </button>
+                    <button class="box">
+                        <a class= "link" href="#Contact">Contact</a>
+                    </button>
+                    <button class="box">
+                        <a class= "link" href="https://www.linkedin.com/in/joshua-neizer-395ba7140/" target="_blank">LinkedIn</a>
+                    </button>
+                    <button class="box">
+                        <a class= "link" href="https://github.com/Vos2" target="_blank">GitHub</a>
+                    </button>
+                </div>
+                <div class="name">Joshua Neizer</div>
+                <div class="icon">&#9772;</div>
+            </div>
+            <div class="intro fadeA">
+                <div class="resume">RESUME</div>
+                <br>
+                <div class="button"><a href="images/Joshua Neizer Resume.pdf" target="_blank" download>Download</a></div>
+            </div>
+            
+        </div>
+        <div class="container">
+    
+            <img class="resume" id="fade" src="images/JoshuaNeizerResume.svg"/>
+                
+        <br>
+    </body>
+</html>

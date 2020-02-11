@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="index.css" rel="stylesheet">
+        <link href="App.css" rel="stylesheet">
+        <link rel="icon" href="../public/logo192.png" />
+        <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+        <title>Joshua Neizer &#8226; Home</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#fade").fadeIn(1000);
+            });
+
+            $(window).on("load",function() {
+                $(window).scroll(function() {
+                    var windowBottom = $(this).scrollTop() + $(this).innerHeight();
+                    $(".fadeA, .fadeB").each(function() {
+                    /* Check the location of each desired element */
+                    var objectBottom = $(this).offset().top + $(this).outerHeight();
+                    
+                    /* If the element is completely within bounds of the window, fade it in */
+                    if (objectBottom < windowBottom) { //object comes into view (scrolling down)
+                        if ($(this).css("opacity")==0) {$(this).fadeTo(1000,1);}
+                    } else { //object goes out of view (scrolling up)
+                        if ($(this).css("opacity")==1) {$(this).fadeTo(1000,0);}
+                    }
+                    });
+                }).scroll(); //invoke scroll-handler on page-load
+            });
+            </script>
+    </head>
+    <body>
+        <div class="home">
+            <div class ="titlebar">
+                <div class="nav">
+                    <button class="box active" >
+                        <a class= "link" href="Home.html">Home</a>
+                    </button>
+                    <button class="box" >
+                        <a class= "link" href="Resume.html">Resume</a>
+                    </button>
+                    <button class="box">
+                        <a class= "link" href="#Contact">Contact</a>
+                    </button>
+                    <button class="box">
+                        <a class= "link" href="https://www.linkedin.com/in/joshua-neizer-395ba7140/" target="_blank">LinkedIn</a>
+                    </button>
+                    <button class="box">
+                        <a class= "link" href="https://github.com/Vos2" target="_blank">GitHub</a>
+                    </button>
+                </div>
+                <div class="name">Joshua Neizer</div>
+                <div class="icon">&#9772;</div>
+            </div>
+            <div id="fade" class="intro">Hi I'm Josh, nice to meet you!</div>
+        </div>
+        <div class="container">
+
+                <div class="info fadeA" style="margin:auto;top:50%;" >
+                    <div class="image-text inner">
+                        <h1>Who am I?</h1>
+                        <p>My name is Joshua Neizer. I'm a second year computer science student at Queen's
+                University with a specialization in Software Design.&#160; I have always had a passion 
+                for creating and understanding the tools that operate “underneath the surface”. 
+                Developing and implementing the programs that allow the users to interact with
+                 the front-end, and not the frontend itself. I view it simply as using computers 
+                 to solve logical puzzles, and that’s where my enthusiasm for this field of study 
+                 over the past 5 years originates!</p>
+                        <br>
+                        <div class="button"><a href="https://www.instagram.com/joshuaneizer/" target="_blank">instagram</a></div>
+                    </div>
+                    <div class="inner"><img class="image-overlay" src="images\85037595_836483896856738_4524974086169821184_n.jpg"></div>
+                </div>
+
+        </div>      
+        <br>
+    </body>
+</html>
