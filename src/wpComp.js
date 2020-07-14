@@ -13,19 +13,10 @@ function changeWP(photo){
 
 function changeTheme(colour){
     document.documentElement.style.setProperty('--colour-theme', colour);
-    var x = document.getElementsByClassName("icy");
-
-    var filt = Filter.convert(colour);
-    for (var i = 0; i < x.length; i++) {
-        console.log(x [i].style.filter)
-        x [i].style.filter = filt;
-    }
-    // console.log(x, filt);
-    // document.getElementsByClassName("icy").style.filter = Filter.convert(colour);
-    // console.log(Filter.convert(colour));
+    document.documentElement.style.setProperty('--filter-theme', Filter.convert(colour));
 }
 
-const colours = ["#f5deb3", "#ffffff", "#000000", "#1e90ff", "#967BB6"]
+const colours = ["#f5deb3", "#5cdb95", "#000000", "#1e90ff", "#967BB6"]
 
 
 

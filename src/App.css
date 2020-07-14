@@ -1,5 +1,6 @@
 :root {
-  --colour-theme: wheat;  
+  --colour-theme: wheat; 
+  --filter-theme: invert(96%) sepia(7%) saturate(2405%) hue-rotate(315deg) brightness(106%) contrast(92%); 
 }
 
 .App {
@@ -204,18 +205,23 @@ div.icon{
            transition:  all .5s ease-in-out;
 }
 
-.image-text:hover{
+/* .image-text:hover{
     background-color:  rgba(245, 222, 179, 0.55);
-}
+} */
 
 .image-overlay{
-  border: solid 5px rgba(245, 222, 179, 1);
+  border: solid 5px var(--colour-theme);
   opacity: 0.95;
   z-index: 1;
   width: 80%;
   height: auto;
   margin: auto;
   display: block;
+  -webkit-transition:   all 1s ease-in-out;
+      -moz-transition:  all 1s ease-in-out;
+       -ms-transition:  all 1s ease-in-out;
+        -o-transition:  all 1s ease-in-out;
+           transition:  all 1s ease-in-out;
 }
 
 
@@ -236,7 +242,7 @@ div.container{
   width: 200px;
   height: 70px;
   color: white;
-  background-color: rgba(245, 222, 179, 1);
+  background-color: var(--colour-theme);
   text-align: center;
   vertical-align: middle;
   display: flex;
@@ -245,11 +251,11 @@ div.container{
   align-items: center;
   letter-spacing: 5px;
   text-transform: uppercase;
-  -webkit-transition:   all .3s ease-in-out;
-      -moz-transition:  all .3s ease-in-out;
-       -ms-transition:  all .3s ease-in-out;
-        -o-transition:  all .3s ease-in-out;
-           transition:  all .3s ease-in-out;
+  -webkit-transition:   all 1s ease-in-out;
+      -moz-transition:  all 1s ease-in-out;
+       -ms-transition:  all 1s ease-in-out;
+        -o-transition:  all 1s ease-in-out;
+           transition:  all 1s ease-in-out;
 }
 
 .button:hover{
@@ -326,8 +332,8 @@ img.wallpaper {
 }
 
 img.wallpaper:hover {
-  width: 65px;
-  height: 65px;
+  /* width: 65px;
+  height: 65px; */
   border: solid 3px var(--colour-theme);
 }
 
@@ -366,8 +372,8 @@ img.wallpaper:hover {
 }
 
 .colour:hover {
-  width: 35px;
-  height: 35px;
+  /* width: 35px;
+  height: 35px; */
   border: solid 3px var(--colour-theme);
 }
 

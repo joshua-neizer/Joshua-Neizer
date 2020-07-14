@@ -3,8 +3,19 @@ import {BrowserRouter, Route, Switch, Link} from 'react-router-dom';
 
 const mult = ["box alpha", "box"];   
 
+function setup(){
+    switch (document.URL.split("/").slice(-1)[0]) {
+        case "Home":
+            return [0, 1, 1];
+        case "Resume":
+            return [1, 0, 1];
+        case "Contact":
+            return [1, 1, 0];
+    }
+}
+
 const TitleBar = () =>{
-    const [state, setState] = useState([0, 1, 1]);
+    const [state, setState] = useState(setup());
     return (    
         <div className ="titlebar">
             <div className="nav">

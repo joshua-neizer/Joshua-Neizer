@@ -1,3 +1,5 @@
+// Code taken from https://gist.github.com/barretts/e90d7e5251f36b183c67e02ba54c9ae1
+
 'use strict';
 
 class Color {
@@ -302,35 +304,3 @@ export function convert(colour){
 
   return result.filter;
 }
-
-/*
-$(document).ready(() => {
-  $('button.execute').click(() => {
-    const rgb = hexToRgb($('input.target').val());
-    if (rgb.length !== 3) {
-      alert('Invalid format!');
-      return;
-    }
-
-    const color = new Color(rgb[0], rgb[1], rgb[2]);
-    const solver = new Solver(color);
-    const result = solver.solve();
-
-    let lossMsg;
-    if (result.loss < 1) {
-      lossMsg = 'This is a perfect result.';
-    } else if (result.loss < 5) {
-      lossMsg = 'The is close enough.';
-    } else if (result.loss < 15) {
-      lossMsg = 'The color is somewhat off. Consider running it again.';
-    } else {
-      lossMsg = 'The color is extremely off. Run it again!';
-    }
-
-    $('.realPixel').css('background-color', color.toString());
-    $('.filterPixel').attr('style', result.filter);
-    $('.filterDetail').text(result.filter);
-    $('.lossDetail').html(`Loss: ${result.loss.toFixed(1)}. <b>${lossMsg}</b>`);
-  });
-});
-*/
