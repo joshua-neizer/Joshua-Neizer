@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="index.css" rel="stylesheet">
+        <link href="App.css" rel="stylesheet">
+        <link href="contact.css" rel="stylesheet">
+        <link rel="icon" href="../public/logo192.png" />
+        <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+        <title>Joshua Neizer &#8226; Home</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#fade").fadeIn(1000);
+            });
+
+            $(window).on("load",function() {
+                $(window).scroll(function() {
+                    var windowBottom = $(this).scrollTop() + $(this).innerHeight();
+                    $(".fadeA, .fadeB").each(function() {
+                    /* Check the location of each desired element */
+                    var objectBottom = $(this).offset().top + $(this).outerHeight();
+                    
+                    /* If the element is completely within bounds of the window, fade it in */
+                    if (objectBottom < windowBottom) { //object comes into view (scrolling down)
+                        if ($(this).css("opacity")==0) {$(this).fadeTo(1000,1);}
+                    } else { //object goes out of view (scrolling up)
+                        if ($(this).css("opacity")==1) {$(this).fadeTo(1000,0);}
+                    }
+                    });
+                }).scroll(); //invoke scroll-handler on page-load
+            });
+            </script>
+    </head>
+    <body>
+        <div class="home" id="home">
+            <div class ="titlebar">
+                <div class="nav">
+                    <button class="box active" >
+                        <a class= "link" href="Home.html">Home</a>
+                    </button>
+                    <button class="box" >
+                        <a class= "link" href="Resume.html">Resume</a>
+                    </button>
+                    <button class="box">
+                        <a class= "link" href="#Contact">Contact</a>
+                    </button>
+                    <button class="box">
+                        <a class= "link" href="https://www.linkedin.com/in/joshua-neizer-395ba7140/" target="_blank">LinkedIn</a>
+                    </button>
+                    <button class="box">
+                        <a class= "link" href="https://github.com/Vos2" target="_blank">GitHub</a>
+                    </button>
+                </div>
+                <div class="name">Joshua Neizer</div>
+                <div class="icon">&#9772;</div>
+            </div>
+            <div id="fade" class="intro">Contact Me</div>
+            <div class="chaCol">
+                <div class="CS"><div class="colour" style="background-color: wheat;"></div></div>
+                <div class="CS"><div class="colour" style="background-color: white;"></div></div>
+                <div class="CS"><div class="colour" style="background-color: black;"></div></div>
+                <div class="CS"><div class="colour" style="background-color: dodgerblue;"></div></div>
+                <div class="CS"><div class="colour" style="background-color: grey;"></div></div>
+            </div>
+            <div class="chaWall">
+                <div class="WPS">
+                    <img class="wallpaper" src="./images/photo-1493397212122-2b85dda8106b.jfif"/>
+                </div>
+                <div class="WPS">
+                    <img class="wallpaper" src="./images/1lie81kf9w831.jpg"/>
+                </div>
+                <div class="WPS">
+                    <img class="wallpaper" src="./images/9hgan8ehx2211.jpg"/>
+                </div>
+                <div class="WPS">
+                    <img class="wallpaper" src="./images/MTU3MzgzNTMzOTA2Njk5NDY2.jpg"/>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="container-A">
+                <div class="box-in email">
+                    <div class="icon-container">
+                        <img class="icy" src="./images/mail-icon.png"/>
+                    </div>
+                    <div class="title">email</div>
+                    <div class="contact-text">joshua.neizer@gmail.com</div>
+                </div> 
+            </div>
+            <div class="container-A">
+                <div class="box-in phone">
+                    <div class="icon-container">
+                        <img class="icy" src="./images/phone-icon.png"/>
+                    </div>
+                    <div class="title">phone</div>
+                    <div class="contact-text">(416)-669-4607</div>
+                </div> 
+            </div>
+            <div class="container-A">
+                <div class="box-in house">
+                    <div class="icon-container">
+                        <img class="icy" src="./images/home-icon.png"/>
+                    </div>
+                    <div class="title">home</div>
+                    <div class="contact-text">Oakville, Ontario</div>
+                </div> 
+            </div>
+        </div>      
+        <br>
+        <script src="./filterColour.js"></script>
+    </body>
+</html>

@@ -1,0 +1,85 @@
+.container-A{
+    height: 200px;
+}
+
+.box-in {
+    margin: auto;
+    height: 100px;
+    width: 600px;
+    background: #fff;
+    border-radius: 1em;
+    box-shadow: 0 3px 5px 0 rgba(154,160,185,.05), 0 10px 20px 0 rgba(166,173,201,.2);
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    -webkit-transition: all .3s ease-in-out;
+      -moz-transition:  all .3s ease-in-out;
+       -ms-transition:  all .3s ease-in-out;
+        -o-transition:  all .3s ease-in-out;
+           transition:  all .3s ease-in-out;
+    text-align: right;
+}
+
+.title {
+    width: 175px;
+    color: var(--colour-theme);
+    font-size: 30px;
+    margin-left: 10px;
+    text-align: left;
+    -webkit-transition:   all 1s ease-in-out;
+      -moz-transition:  all 1s ease-in-out;
+       -ms-transition:  all 1s ease-in-out;
+        -o-transition:  all 1s ease-in-out;
+           transition:  all 1s ease-in-out;
+  }
+
+img.icy{
+    width: 50px;
+    height: 50px;
+    filter: invert(96%) sepia(7%) saturate(2405%) hue-rotate(315deg) brightness(106%) contrast(92%);
+    -webkit-transition:   all 1s ease-in-out;
+      -moz-transition:  all 1s ease-in-out;
+       -ms-transition:  all 1s ease-in-out;
+        -o-transition:  all 1s ease-in-out;
+           transition:  all 1s ease-in-out;
+}
+
+.email {
+    border-top: 4px solid #1ca6d0;
+}
+
+.email:hover{
+    border-top: 9px solid #1ca6d0;
+}
+
+.phone {
+    border-top: 4px solid #15c39a;
+}
+
+.phone:hover{
+    border-top: 9px solid #15c39a;
+}
+
+.house {
+    border-top: 4px solid #4B0082;
+}
+
+.house:hover{
+    border-top: 9px solid #4B0082;
+
+}
+
+.icon-container{
+    width: 120px;
+    display:table-cell; 
+    vertical-align:middle; 
+    text-align:center;
+}
+
+.contact-text {
+    width: 100%;
+    padding-right: 40px;
+}
