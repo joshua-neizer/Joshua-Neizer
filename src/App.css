@@ -69,7 +69,7 @@ div.home{
   width: 100%;
   margin: auto;
   height: 30px;
-  bckground-color: white;
+  /* background-color: white; */
   padding-top: 30px;
   padding-bottom: 30px;
   font-size: 17px;
@@ -197,10 +197,14 @@ div.icon{
     margin: 50;
     position: relative;
     margin: 50px -50px 50px 100px;
-    -webkit-transition: all .5s ease-in-out;
+    -webkit-transition:   all .5s ease-in-out;
+      -moz-transition:  all .5s ease-in-out;
+       -ms-transition:  all .5s ease-in-out;
+        -o-transition:  all .5s ease-in-out;
+           transition:  all .5s ease-in-out;
 }
 
-.image-text:hovr{
+.image-text:hover{
     background-color:  rgba(245, 222, 179, 0.55);
 }
 
@@ -241,7 +245,11 @@ div.container{
   align-items: center;
   letter-spacing: 5px;
   text-transform: uppercase;
-  -webkit-transition: all .3s ease-in-out;
+  -webkit-transition:   all .3s ease-in-out;
+      -moz-transition:  all .3s ease-in-out;
+       -ms-transition:  all .3s ease-in-out;
+        -o-transition:  all .3s ease-in-out;
+           transition:  all .3s ease-in-out;
 }
 
 .button:hover{
