@@ -4,15 +4,21 @@
         <link href="index.css" rel="stylesheet">
         <link href="App.css" rel="stylesheet">
         <link href="contact.css" rel="stylesheet">
+        <link href="mobileView.css" rel="stylesheet">
         <link rel="icon" href="../public/logo192.png" />
         <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>Joshua Neizer &#8226; Home</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script>
             $(document).ready(function(){
                 $("#fade").fadeIn(1000);
             });
+
+            function menuFade(){
+                $(".responsive").css('opacity', 0);
+            }
 
             $(window).on("load",function() {
                 $(window).scroll(function() {
@@ -33,24 +39,66 @@
             </script>
     </head>
     <body>
+        <script>
+            var target = 0;
+            /*
+            function mobileNav() {
+                console.log(target)
+                if (target == 0) {
+                    $('.responsive').fadeIn();
+                    target = 1;
+                } else {
+                    $('.responsive').fadeOut();
+                    target = 0;
+                }
+            }*/
+
+            function mobileNav() {
+                var element = document.getElementsByClassName('responsive')[0];
+                if (target == 0) {
+                    element.style.opacity = 1;
+                    element.style.visibility = "visible";
+                    target = 1;
+                } else {
+                    element.style.opacity = 0;
+                    element.style.visibility = "hidden";
+                    target = 0;
+                }
+            }
+
+
+            function fadeIn(el){
+                el.classList.add('show');
+                el.classList.remove('hide');  
+            }
+
+            function fadeOut(el){
+                el.classList.add('hide');
+                el.classList.remove('show');
+            }
+        </script>
         <div class="home" id="home">
             <div class ="titlebar">
-                <div class="nav">
-                    <button class="box active" >
+            <a href="javascript:void(0);" class="icon" onclick="mobileNav()">
+                <i class="fa fa-bars"></i>
+            </a>
+                <div class="topNav responsive" id="myTopnav">
+                <div id="navi">
+                 <a href="javascript:void(0);" class="icon" onclick="mobileNav()">
+                <i class="fa fa-bars"></i>
+            </a>
+        
                         <a class= "link" href="Home.html">Home</a>
-                    </button>
-                    <button class="box" >
+
                         <a class= "link" href="Resume.html">Resume</a>
-                    </button>
-                    <button class="box">
+
                         <a class= "link" href="#Contact">Contact</a>
-                    </button>
-                    <button class="box">
+
                         <a class= "link" href="https://www.linkedin.com/in/joshua-neizer-395ba7140/" target="_blank">LinkedIn</a>
-                    </button>
-                    <button class="box">
+
                         <a class= "link" href="https://github.com/Vos2" target="_blank">GitHub</a>
-                    </button>
+
+                </div>
                 </div>
                 <div class="name">Joshua Neizer</div>
                 <div class="icon">&#9772;</div>

@@ -142,10 +142,6 @@ div.name{
   text-transform: uppercase;
   letter-spacing: 20px;
   font-size: 40px;
-}
-
-div.name:hover{
-  color: var(--colour-theme);
   -webkit-transition:   all 1s ease-in-out;
       -moz-transition:  all 1s ease-in-out;
        -ms-transition:  all 1s ease-in-out;
@@ -153,12 +149,16 @@ div.name:hover{
            transition:  all 1s ease-in-out;
 }
 
+div.name:hover{
+  color: var(--colour-theme);
+  
+}
+
 div.icon{
-  margin-top: -30px;
-  padding-right: 30px;
-  float: right;
-  margin: -65px 0 0 0px;
   font-size: 40px;
+  position: absolute;
+  top: 29px;
+  right: 20px;
 }
 
 .intro{
@@ -210,13 +210,14 @@ div.icon{
 } */
 
 .image-overlay{
-  border: solid 5px var(--colour-theme);
+  border: solid 8px var(--colour-theme);
   opacity: 0.95;
   z-index: 1;
   width: 80%;
   height: auto;
   margin: auto;
   display: block;
+  border-radius: 0.5em;
   -webkit-transition:   all 1s ease-in-out;
       -moz-transition:  all 1s ease-in-out;
        -ms-transition:  all 1s ease-in-out;
@@ -251,6 +252,7 @@ div.container{
   align-items: center;
   letter-spacing: 5px;
   text-transform: uppercase;
+  opacity: 1;
   -webkit-transition:   all 1s ease-in-out;
       -moz-transition:  all 1s ease-in-out;
        -ms-transition:  all 1s ease-in-out;
@@ -259,7 +261,7 @@ div.container{
 }
 
 .button:hover{
-  background-color: rgba(245, 222, 179, 0.8);
+  opacity: 0.7;
 }
 
 img.resume{

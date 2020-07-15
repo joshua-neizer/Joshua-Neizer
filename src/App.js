@@ -1,22 +1,28 @@
-import React, { Component } from 'react';
+import React, { Component, useState, useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import TitleBar from './TitleBar.js'
+import MobileBar from './mobileTitleBar'
 import Home from './home';
 import Resume from './resume';
 import Contact from './contact';
 import WPComp from './wpComp';
+import useWindowSize from './windowDimensions';
 import {BrowserRouter, Route, Switch, Link} from 'react-router-dom';
 
+function getTitleBar(width){
+  return (width < 1800 ?  <MobileBar/> : <TitleBar/>) ; 
+}
+console.log();
+function App (){
 
-
-class App extends Component{
-  render(){
+    const titleBar = getTitleBar(useWindowSize().width)
+    
 
     return (
       <BrowserRouter>
         <div id="home" className="home">
-          <TitleBar updatePageT={this.updatePage}/>
+          {titleBar}
           <WPComp/>
           <Switch>
             <Route path="/Home">
@@ -52,7 +58,7 @@ class App extends Component{
       </BrowserRouter>
     );
   }
-}
+
 
 
 

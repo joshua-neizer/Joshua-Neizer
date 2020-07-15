@@ -11,6 +11,8 @@ function setup(){
             return [1, 0, 1];
         case "Contact":
             return [1, 1, 0];
+        default:
+            return [0, 1, 1];
     }
 }
 
