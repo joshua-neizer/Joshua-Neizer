@@ -159,6 +159,16 @@ div.icon{
   position: absolute;
   top: 29px;
   right: 20px;
+
+  -webkit-transition:   all 1s ease-in-out;
+      -moz-transition:  all 1s ease-in-out;
+       -ms-transition:  all 1s ease-in-out;
+        -o-transition:  all 1s ease-in-out;
+           transition:  all 1s ease-in-out;
+}
+
+div.icon:hover{
+  color: var(--colour-theme);
 }
 
 .intro{
@@ -167,10 +177,10 @@ div.icon{
   font-weight: bold;
   color: var(--colour-theme);
   position: absolute;
-  top: 50vh;
+  top: 49vh;
   padding-left: 5%;
   display: flex;
-
+  text-shadow: 2px 2px 4px #000000ba;
   -webkit-transition:   all 1s ease-in-out;
       -moz-transition:  all 1s ease-in-out;
        -ms-transition:  all 1s ease-in-out;
@@ -190,7 +200,7 @@ div.icon{
 
 .image-text{
     padding: 2%;
-    font-size: 0.9vw;
+    font-size: 16px;
     color: black;
     width: 45%;
     height: 80%;
@@ -386,4 +396,47 @@ img.wallpaper:hover {
   align-items:center;
   justify-content:center;
   margin: 10px
+}
+
+@media screen and (max-width: 613px){
+  div.icon{
+      display: none;
+  }
+}
+
+
+@media screen and (max-width: 613px){
+  .chaCol{
+      display: none !important;
+  }
+
+  .chaWall{
+      display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 1200px){
+  .image-overlay{
+      width: 350px !important;
+      display: flex;
+  }
+
+
+  .info {
+      flex-wrap: wrap;
+  }
+
+  .image-text{
+    width: 100%;
+    margin: 50px 0px 50px 0px;
+  }
+
+  .inner{
+    width: 100%
+  }
+
+  .button-resume{
+    display: none;
+  }
 }

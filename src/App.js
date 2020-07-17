@@ -32,7 +32,7 @@ function App (){
             <div className="intro fade">
               <div className="resume">RESUME</div>
               <br/>
-              <div className="button">
+              <div className="button button-resume">
                 <a href="./images/Joshua Neizer Resume.pdf" target="_blank" download>Download</a>
               </div>
             </div>

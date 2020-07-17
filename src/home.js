@@ -11,7 +11,7 @@ export default (props) => {
         <div class="image-text inner">
             <h1>Who am I?</h1>
             <p>
-                My name is Joshua Neizer. I'm a second year computer science student at Queen's
+                My name is Joshua Neizer. I'm a third year computer science student at Queen's
                 University with a specialization in Software Design.&#160; I have always had a passion 
                 for creating and understanding the tools that operate “underneath the surface”. 
                 Developing and implementing the programs that allow the users to interact with

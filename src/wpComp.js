@@ -17,7 +17,7 @@ function changeTheme(colour){
 
 const Themes = {
     themeA: ["#f5deb3", "#ECEBE4", "#CC998D", "#153B50", "#A89F68"],
-    themeB: ["#BCE7FD", "#B0DB43", "#12EAEA", "#DB2763", "#C492B1"],
+    themeB: ["#16BAC5", "#5FBFF9", "#EFE9F4", "#171D1C", "#5863F8"],
     themeC: ["#EEF1EF", "#7D98A1", "#F4D6CC", "#F4B860", "#A9B4C2"],
     themeD: ["#A37871", "#BEA2C2", "#BDADEA", "#4381C1", "#ACF7C1"]
 }

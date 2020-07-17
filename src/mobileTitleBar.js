@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { Component, useState } from 'react';
 import {BrowserRouter, Route, Switch, Link} from 'react-router-dom';
 
 var target = 0;
@@ -30,14 +30,24 @@ function setup(){
     }
 }
 
+
+
+
+
 const TitleBar = () =>{
     const [state, setState] = useState(setup());
+
+    React.useEffect(() => {
+            document.getElementsByClassName('responsive')[0].style.height =  (document.getElementsByClassName('home')[0].clientHeight - 50) + "px";
+            
+      }, [], [], []);
+
     return (    
         <div className ="titlebar">
             <a href="javascript:void(0);" className="icon" onClick={() => {mobileNav()}}>
                 <i className="fa fa-bars"></i>
             </a>
-            <div className="topNav responsive" id="myTopnav">
+            <div className="topNav responsive" style={{}} id="myTopnav">
                 <div id="navi">
                     <a href="javascript:void(0);" className="icon" onClick={() => {mobileNav()}}>
                         <i className="fa fa-bars"></i>
@@ -51,28 +61,6 @@ const TitleBar = () =>{
             </div>
             <div className="name">Joshua Neizer</div>
             <div className="icon">&#9772;</div>
-             {/* <a href="javascript:void(0);" class="icon" onclick="mobileNav()">
-                <i class="fa fa-bars"></i>
-            </a>
-            <div className="nav">
-                <button className={mult [state [0]]} type="button" onClick={() => {setState([0, 1, 1]); console.log(state);}}>
-                    <Link className= "link" to="Home">Home</Link>
-                </button>
-                <button className={mult [state [1]]} type="button" onClick={() => {setState([1, 0, 1]); console.log(state);}}>
-                    <Link className= "link" to="Resume">Resume</Link>
-                </button>
-                <button className={mult [state [2]]} type="button" onClick={() => {setState([1, 1, 0]); console.log(state);}}>
-                    <Link className= "link" to="Contact">Contact</Link>
-                </button>
-                <button className="box">
-                    <a className= "link"  href="https://www.linkedin.com/in/joshua-neizer-395ba7140/" target="_blank">LinkedIn</a>
-                </button>
-                <button className="box">
-                    <a className= "link" href="https://github.com/joshua-neizer" target="_blank">GitHub</a>
-                </button>
-            </div>
-            <div className="name">Joshua Neizer</div>
-            <div className="icon">&#9772;</div> */}
         </div>
     );
 }
