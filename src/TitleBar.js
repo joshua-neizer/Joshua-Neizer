@@ -21,13 +21,13 @@ const TitleBar = () =>{
     return (    
         <div className ="titlebar">
             <div className="nav">
-                <button className={mult [state [0]]} type="button" onClick={() => {setState([0, 1, 1]); console.log(state);}}>
+                <button className={mult [state [0]]} type="button" onClick={() => {setState([0, 1, 1]);}}>
                     <Link className= "link" to="Home">Home</Link>
                 </button>
-                <button className={mult [state [1]]} type="button" onClick={() => {setState([1, 0, 1]); console.log(state);}}>
+                <button className={mult [state [1]]} type="button" onClick={() => {setState([1, 0, 1]);}}>
                     <Link className= "link" to="Resume">Resume</Link>
                 </button>
-                <button className={mult [state [2]]} type="button" onClick={() => {setState([1, 1, 0]); console.log(state);}}>
+                <button className={mult [state [2]]} type="button" onClick={() => {setState([1, 1, 0]);}}>
                     <Link className= "link" to="Contact">Contact</Link>
                 </button>
                 <button className="box">

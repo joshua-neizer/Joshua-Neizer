@@ -405,13 +405,17 @@ img.wallpaper:hover {
 }
 
 
-@media screen and (max-width: 613px){
+@media screen and (max-width: 680px){
   .chaCol{
       display: none !important;
   }
 
   .chaWall{
       display: none !important;
+  }
+
+  div.resume{
+    font-size: 8vw;
   }
 }
 
@@ -437,6 +441,47 @@ img.wallpaper:hover {
   }
 
   .button-resume{
+    position: absolute;
+    top: 80px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .image-overlay {
+      width: 270px !important;
+  }
+}
+
+@media screen and (max-width: 900px){
+  img.resume{
+    width: 100%;
+    position: absolute;
+    left: 0;
+  }
+}
+
+
+@media screen and (max-width: 850px){
+  .box-in{
+      width: 100%;
+      padding: 15px 0px 15px 0px;
+  }
+}
+
+@media screen and (max-width: 750px){
+  div.title{
     display: none;
+  }
+}
+
+@media screen and (max-width: 700px){
+  .contact-text{
+    font-size: 3vw;
+    padding-right: 20px;
+  }
+
+  img.icy {
+    width: 8vw;
+    height: 8vw;
   }
 }
