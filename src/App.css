@@ -485,3 +485,21 @@ img.wallpaper:hover {
     height: 8vw;
   }
 }
+
+@media screen and (max-width: 975px){
+  .github{
+    position: absolute;
+    left: 5vw;
+    top: 60px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .project-gallery{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    margin: auto;
+  }
+}
+

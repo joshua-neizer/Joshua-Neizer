@@ -1,0 +1,147 @@
+div.project-header{
+    margin-right: 20px;
+}
+
+.github{
+    overflow: hidden;
+    float: left;
+    text-shadow: none;
+    width: 200px;
+    height: 70px;
+    color: white;
+    background-color: var(--colour-theme);
+    border-radius: 1em;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    opacity: 1;
+    -webkit-transition:   all 1s ease-in-out, border-width .3s ease-in-out;
+        -moz-transition:  all 1s ease-in-out, border-width .3s ease-in-out;
+         -ms-transition:  all 1s ease-in-out, border-width .3s ease-in-out;
+          -o-transition:  all 1s ease-in-out, border-width .3s ease-in-out;
+             transition:  all 1s ease-in-out, border-width .3s ease-in-out;
+  }
+  
+  .github:hover{
+    opacity: 0.7;
+    border-width: 4px;
+  }
+
+div.project-gallery{
+    padding-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 100px;
+    align-items: center;
+}
+
+div.project-card{
+    height: 145px;
+    padding: 15px;
+}
+
+
+div.project{
+    margin: auto;
+    height: 135px;
+    width: 350px;
+    background: #fff;
+    border-radius: 1em;
+    box-shadow: 0 3px 5px 0 rgba(154,160,185,.05), 0 10px 20px 0 rgba(166,173,201,.2);
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--colour-theme);
+    display: flex;
+    align-items: center;
+    -webkit-transition: all .3s ease-in-out;
+      -moz-transition:  all .3s ease-in-out;
+       -ms-transition:  all .3s ease-in-out;
+        -o-transition:  all .3s ease-in-out;
+           transition:  all .3s ease-in-out;
+    text-align: right;
+}
+
+div.project:hover{
+    border-width: 8px;
+}
+
+img.project-icon{
+    width: 50px;
+    height: 50px;
+    filter: var(--filter-theme);
+    position: absolute;
+    margin: 0px 20px;
+    -webkit-transition:  all 1s ease-in-out;
+       -moz-transition:  all 1s ease-in-out;
+        -ms-transition:  all 1s ease-in-out;
+         -o-transition:  all 1s ease-in-out;
+            transition:  all 1s ease-in-out;
+}
+
+div.project-title{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 5px;
+    margin: auto;
+    width: 200px;
+    text-align: center;
+    -webkit-transition:  all .3s ease-in-out;
+       -moz-transition:  all .3s ease-in-out;
+        -ms-transition:  all .3s ease-in-out;
+         -o-transition:  all .3s ease-in-out;
+            transition:  all .3s ease-in-out;
+}
+
+.PA {
+    border-top: solid 4px #36213E;
+}
+
+.PA:hover{
+    color: #36213E !important;
+}
+
+.PB {
+    border-top: solid 4px #554971;
+}
+
+.PB:hover{
+    color: #554971;
+}
+
+.PC {
+    border-top: solid 4px #63768D;
+}
+
+.PC:hover{
+    color: #63768D;
+}
+
+.PD {
+    border-top: solid 4px #8ac6d0;
+}
+
+.PD:hover{
+    color: #8ac6d0;
+}
+
+.PE {
+    border-top: solid 4px #B8F3FF;
+}
+
+.PE:hover{
+    color: #B8F3FF;
+}
+
+.PF {
+    border-top: solid 4px #C1CEFE;
+}
+
+.PF:hover{
+    color: #C1CEFE;
+}

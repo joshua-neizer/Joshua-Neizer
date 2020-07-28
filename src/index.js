@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import './contact.css';
-import './mobileView.css';
+import './css/index.css';
+import './css/contact.css';
+import './css/mobileView.css';
+import './css/projects.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 

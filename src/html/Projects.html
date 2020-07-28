@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="../index.css" rel="stylesheet">
+        <link href="../App.css" rel="stylesheet">
+        <link href="../contact.css" rel="stylesheet">
+        <link href="../mobileView.css" rel="stylesheet">
+        <link href="../projects.css" rel="stylesheet">
+        <link rel="icon" href="../public/logo192.png" />
+        <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Joshua Neizer &#8226; Home</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#fade").fadeIn(1000);
+            });
+
+            function menuFade(){
+                $(".responsive").css('opacity', 0);
+            }
+
+            $(window).on("load",function() {
+                $(window).scroll(function() {
+                    var windowBottom = $(this).scrollTop() + $(this).innerHeight();
+                    $(".fadeA, .fadeB").each(function() {
+                    /* Check the location of each desired element */
+                    var objectBottom = $(this).offset().top + $(this).outerHeight();
+                    
+                    /* If the element is completely within bounds of the window, fade it in */
+                    if (objectBottom < windowBottom) { //object comes into view (scrolling down)
+                        if ($(this).css("opacity")==0) {$(this).fadeTo(1000,1);}
+                    } else { //object goes out of view (scrolling up)
+                        if ($(this).css("opacity")==1) {$(this).fadeTo(1000,0);}
+                    }
+                    });
+                }).scroll(); //invoke scroll-handler on page-load
+            });
+            </script>
+    </head>
+    <body>
+        <script>
+            var target = 0;
+            /*
+            function mobileNav() {
+                console.log(target)
+                if (target == 0) {
+                    $('.responsive').fadeIn();
+                    target = 1;
+                } else {
+                    $('.responsive').fadeOut();
+                    target = 0;
+                }
+            }*/
+
+            function mobileNav() {
+                var element = document.getElementsByClassName('responsive')[0];
+                if (target == 0) {
+                    element.style.opacity = 1;
+                    element.style.visibility = "visible";
+                    target = 1;
+                } else {
+                    element.style.opacity = 0;
+                    element.style.visibility = "hidden";
+                    target = 0;
+                }
+            }
+
+
+            function fadeIn(el){
+                el.classList.add('show');
+                el.classList.remove('hide');  
+            }
+
+            function fadeOut(el){
+                el.classList.add('hide');
+                el.classList.remove('show');
+            }
+        </script>
+        <div class="home" id="home">
+            <div class ="titlebar">
+            <a href="javascript:void(0);" class="icon" onclick="mobileNav()">
+                <i class="fa fa-bars"></i>
+            </a>
+                <div class="topNav responsive" id="myTopnav">
+                <div id="navi">
+                 <a href="javascript:void(0);" class="icon" onclick="mobileNav()">
+                <i class="fa fa-bars"></i>
+            </a>
+        
+                        <a class= "link" href="Home.html">Home</a>
+
+                        <a class= "link" href="Resume.html">Resume</a>
+
+                        <a class= "link" href="#Contact">Contact</a>
+
+                        <a class= "link" href="https://www.linkedin.com/in/joshua-neizer-395ba7140/" target="_blank">LinkedIn</a>
+
+                        <a class= "link" href="https://github.com/Vos2" target="_blank">GitHub</a>
+
+                </div>
+                </div>
+                <div class="name">Joshua Neizer</div>
+                <div class="icon">&#9772;</div>
+            </div>
+            <div id="fade" class="intro">
+                <div class="project-header">Source Code</div>
+                <br>
+                <div class="github">
+                    <a href="https://github.com/joshua-neizer" target="_blank">Github</a>
+                </div>
+            </div>
+            <div class="chaCol">
+                <div class="CS"><div class="colour" style="background-color: wheat;"></div></div>
+                <div class="CS"><div class="colour" style="background-color: white;"></div></div>
+                <div class="CS"><div class="colour" style="background-color: black;"></div></div>
+                <div class="CS"><div class="colour" style="background-color: dodgerblue;"></div></div>
+                <div class="CS"><div class="colour" style="background-color: grey;"></div></div>
+            </div>
+            <div class="chaWall">
+                <div class="WPS">
+                    <img class="wallpaper" src="../images/photo-1493397212122-2b85dda8106b.jfif"/>
+                </div>
+                <div class="WPS">
+                    <img class="wallpaper" src="../images/1lie81kf9w831.jpg"/>
+                </div>
+                <div class="WPS">
+                    <img class="wallpaper" src="../images/9hgan8ehx2211.jpg"/>
+                </div>
+                <div class="WPS">
+                    <img class="wallpaper" src="../images/MTU3MzgzNTMzOTA2Njk5NDY2.jpg"/>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="project-gallery">
+                <div class="project-card">
+                    <a href="http://192.168.2.44/.API/" target="_blank">
+                        <div class="project PA">
+                            <img class="project-icon" src="../images/html-icon.png"/>
+                            <div class="project-title">Rest API</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="project-card">
+                    <a href="http://192.168.2.44/" target="_blank">
+                        <div class="project PB">
+                            <img class="project-icon" src="../images/AI-icon.webp"/>
+                            <div class="project-title">Lyric Generation AI</div>
+                        </div>
+                    </a>
+                </div>
+               <div class="project-card">
+                    <a href="http://192.168.2.44/.MLApp/" target="_blank">
+                        <div class="project PC">
+                            <img class="project-icon" src="../images/AI-icon.webp"/>
+                            <div class="project-title">Dog Breed Analyzer</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="project-card">
+                    <a href="https://github.com/joshua-neizer/MTOptimizer/blob/master/MTOptimizer.java" target="_blank">   
+                        <div class="project PD">
+                            <img class="project-icon" src="../images/java-icon.webp"/>
+                            <div class="project-title">MT Optimizer</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="project-card">
+                    <a href="../documents/a3_20104131.pdf" target="_blank">
+                        <div class="project PE">
+                            <img class="project-icon" src="../images/project-icon.png"/>
+                            <div class="project-title">ML Paper</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="project-card">
+                    <a href="../documents/assembly_language_lab.s" target="_blank">
+                        <div class="project PF">
+                            <img class="project-icon" src="../images/html-icon.png"/>
+                            <div class="project-title">Assembly Language</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>      
+        <br>
+        <script src="./filterColour.js"></script>
+    </body>
+</html>
