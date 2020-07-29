@@ -29,10 +29,10 @@ function App (){
           <WPComp/>
           <Switch>
           
-            <Route path="/Home">
+            <Route path="*/Home">
               <div className="intro fade">Hi I'm Josh, nice to meet you!</div>
             </Route>
-            <Route path="/Resume">
+            <Route path="*/Resume">
               <div className="intro fade">
                 <div className="resume">RESUME</div>
                 <br/>
@@ -41,7 +41,7 @@ function App (){
                 </div>
               </div>
             </Route>
-            <Route path="/Projects">
+            <Route path="*/Projects">
               <div className="intro fade">
                 <div class="project-header">Source Code</div>
                 <br/>
@@ -54,7 +54,7 @@ function App (){
                 </a>
               </div>
             </Route>
-            <Route path="/Contact">
+            <Route path="*/Contact">
               <div className="intro fade">Contact Information</div>
             </Route>
             <Route path="/">
@@ -64,16 +64,16 @@ function App (){
         </div>
         <div className="container fade">
         <Switch>
-          <Route path="/Home">
+          <Route path="*/Home">
             <Home/>
           </Route>
-          <Route path="/Resume">
+          <Route path="*/Resume">
             <Resume/>
           </Route>
-          <Route path="/Contact">
+          <Route path="*/Contact">
             <Contact/>
           </Route>
-          <Route path="/Projects">
+          <Route path="*/Projects">
             <Projects/>
           </Route>
           <Route path="/">
