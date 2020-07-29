@@ -20,23 +20,44 @@ div.project-header{
 }
 
 .github{
+    position: relative;
     width: 75px;
     height: 75px;
     filter: var(--filter-theme);
-    position: absolute;
     opacity: 1;
+    left: -0.5px;
+    top: -0.5px;
     
     -webkit-transition:  filter 1s ease-in-out;
        -moz-transition:  filter 1s ease-in-out;
         -ms-transition:  filter 1s ease-in-out;
          -o-transition:  filter 1s ease-in-out;
             transition:  filter 1s ease-in-out;
-  }
+}
   
-  .github-cont:hover{
+.github-cont:hover{
     opacity: 0.7;
     border-color: white;
-  }
+}
+
+.github-bg{
+    width: 73px;
+    height: 73px;
+    border-radius: 2em;
+    background: rgba(255, 255, 255, 0);
+
+    -webkit-transition:  all .5s ease-in-out;
+       -moz-transition:  all .5s ease-in-out;
+        -ms-transition:  all .5s ease-in-out;
+         -o-transition:  all .5s ease-in-out;
+            transition:  all .5s ease-in-out;
+}
+
+
+.github-bg:hover{
+    background: rgba(255, 255, 255, 1);
+}
+
 
 div.project-gallery{
     padding-top: 15px;

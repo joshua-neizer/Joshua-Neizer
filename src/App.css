@@ -180,7 +180,7 @@ div.icon:hover{
   top: 49vh;
   padding-left: 5%;
   display: flex;
-  text-shadow: 2px 2px 4px #000000ba;
+  /* text-shadow: 2px 2px 4px #000000ba; */
   -webkit-transition:   all 1s ease-in-out;
       -moz-transition:  all 1s ease-in-out;
        -ms-transition:  all 1s ease-in-out;

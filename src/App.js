@@ -46,7 +46,9 @@ function App (){
                 <br/>
                 <a href="https://github.com/joshua-neizer" target="_blank">
                   <div class="github-cont">
-                    <img class="github" src={github_icon}/>
+                    <div class="github-bg">
+                      <img class="github" src={github_icon}/>
+                    </div>
                   </div>
                 </a>
               </div>
