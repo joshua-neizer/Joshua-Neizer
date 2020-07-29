@@ -6,7 +6,7 @@ import home_icon from './images/home-icon.png';
 
 export default (props) => {
   return (
-    <div class="fadeA">
+    <div class="fade">
         <div class="container-A">
             <div class="box-in email">
                 <div class="icon-container">

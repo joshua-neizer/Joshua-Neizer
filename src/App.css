@@ -252,6 +252,7 @@ div.container{
   float: left;
   width: 200px;
   height: 70px;
+  text-shadow: none;
   color: white;
   background-color: var(--colour-theme);
   text-align: center;
@@ -487,10 +488,11 @@ img.wallpaper:hover {
 }
 
 @media screen and (max-width: 975px){
-  .github{
+  .github-cont{
     position: absolute;
     left: 5vw;
     top: 60px;
+    margin: 0;
   }
 }
 

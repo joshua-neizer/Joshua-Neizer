@@ -11,6 +11,8 @@ import WPComp from './wpComp';
 import useWindowSize from './windowDimensions';
 import {BrowserRouter, Route, Switch, Link} from 'react-router-dom';
 
+import github_icon from './images/github-icon.webp';
+
 function getTitleBar(width){
   return (width < 1800 ?  <MobileBar/> : <TitleBar/>) ; 
 }
@@ -43,8 +45,8 @@ function App (){
                 <div class="project-header">Source Code</div>
                 <br/>
                 <a href="https://github.com/joshua-neizer" target="_blank">
-                  <div class="github">
-                   Github
+                  <div class="github-cont">
+                    <img class="github" src={github_icon}/>
                   </div>
                 </a>
               </div>

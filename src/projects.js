@@ -11,7 +11,7 @@ import assembly_lab from './documents/assembly_language_lab.s';
 export default (props) => {
 
   return (
-    <div class="project-gallery">
+    <div class="project-gallery fade">
         <div class="project-card">
             <a href="http://192.168.2.44/.API/" target="_blank">
                 <div class="project PA">

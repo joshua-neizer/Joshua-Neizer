@@ -55,7 +55,6 @@ const TitleBar = () =>{
                         <Link style = {{color: mult [state [2]]}} className= "mobLink" to="Projects"onClick={() => {setState([1, 1, 0, 1]);}}>Projects</Link>
                         <Link style = {{color: mult [state [3]]}} className= "mobLink" to="Contact"onClick={() => {setState([1, 1, 1, 0]);}}>Contact</Link>
                         <a className= "mobLink" href="https://www.linkedin.com/in/joshua-neizer-395ba7140/" target="_blank">LinkedIn</a>
-                        <a className= "mobLink" href="https://github.com/Vos2" target="_blank">GitHub</a>
                 </div>
             </div>
             <div className="name">Joshua Neizer</div>

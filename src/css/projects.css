@@ -2,34 +2,40 @@ div.project-header{
     margin-right: 20px;
 }
 
-.github{
-    overflow: hidden;
-    float: left;
-    text-shadow: none;
-    width: 200px;
-    height: 70px;
-    color: white;
-    background-color: var(--colour-theme);
-    border-radius: 1em;
-    text-align: center;
-    vertical-align: middle;
+.github-cont{
+    width: 81px;
+    height: 82px;
+    border: solid 3px rgba(0, 0, 0, 0);
+    border-radius: 2em;
+    margin: -16px 20px;
     display: flex;
-    font-size: 20px;
     justify-content: center;
     align-items: center;
-    letter-spacing: 5px;
-    text-transform: uppercase;
     opacity: 1;
-    -webkit-transition:   all 1s ease-in-out, border-width .3s ease-in-out;
-        -moz-transition:  all 1s ease-in-out, border-width .3s ease-in-out;
-         -ms-transition:  all 1s ease-in-out, border-width .3s ease-in-out;
-          -o-transition:  all 1s ease-in-out, border-width .3s ease-in-out;
-             transition:  all 1s ease-in-out, border-width .3s ease-in-out;
+    -webkit-transition:  all .5s ease-in-out;
+       -moz-transition:  all .5s ease-in-out;
+        -ms-transition:  all .5s ease-in-out;
+         -o-transition:  all .5s ease-in-out;
+            transition:  all .5s ease-in-out;
+}
+
+.github{
+    width: 75px;
+    height: 75px;
+    filter: var(--filter-theme);
+    position: absolute;
+    opacity: 1;
+    
+    -webkit-transition:  filter 1s ease-in-out;
+       -moz-transition:  filter 1s ease-in-out;
+        -ms-transition:  filter 1s ease-in-out;
+         -o-transition:  filter 1s ease-in-out;
+            transition:  filter 1s ease-in-out;
   }
   
-  .github:hover{
+  .github-cont:hover{
     opacity: 0.7;
-    border-width: 4px;
+    border-color: white;
   }
 
 div.project-gallery{
