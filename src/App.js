@@ -28,6 +28,7 @@ function App (){
           {titleBar}
           <WPComp/>
           <Switch>
+          
             <Route path="/Home">
               <div className="intro fade">Hi I'm Josh, nice to meet you!</div>
             </Route>
@@ -56,6 +57,9 @@ function App (){
             <Route path="/Contact">
               <div className="intro fade">Contact Information</div>
             </Route>
+            <Route path="/">
+              <div className="intro fade">Hi I'm Josh, nice to meet you!</div>
+            </Route>
           </Switch>
         </div>
         <div className="container fade">
@@ -71,6 +75,9 @@ function App (){
           </Route>
           <Route path="/Projects">
             <Projects/>
+          </Route>
+          <Route path="/">
+            <Home/>
           </Route>
         </Switch>
         </div>     
