@@ -74,9 +74,9 @@ img.icy{
 
 .icon-container{
     width: 120px;
-    display:table-cell; 
-    vertical-align:middle; 
-    text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact-text {
