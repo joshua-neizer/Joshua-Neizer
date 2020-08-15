@@ -25,9 +25,8 @@ div.project-header{
     height: 75px;
     filter: var(--filter-theme);
     opacity: 1;
-    left: -0.5px;
-    top: -0.5px;
-    
+    right: 1px;
+    bottom: 1.2px;
     -webkit-transition:  filter 1s ease-in-out;
        -moz-transition:  filter 1s ease-in-out;
         -ms-transition:  filter 1s ease-in-out;

@@ -47,7 +47,7 @@
 }
 
 div.home{
-  height: 75vh;
+  height: 99vh;
   background-attachment: fixed;
     background-position: 100% 30%;
     background-size: 80%;
@@ -177,7 +177,7 @@ div.icon:hover{
   font-weight: bold;
   color: var(--colour-theme);
   position: absolute;
-  top: 49vh;
+  bottom: 200px;
   padding-left: 5%;
   display: flex;
   /* text-shadow: 2px 2px 4px #000000ba; */
@@ -323,8 +323,8 @@ li {
   position: absolute;
   display: flex;
   height: 100px;
-  right: 30px;
-  top: 60vh;
+  right: 50px;
+  bottom: 20px;
   justify-content: center;
   align-items: center;
 }
@@ -334,7 +334,7 @@ img.wallpaper {
   height: 60px;
   object-fit: cover;
   border: solid 3px white;
-  border-radius: 1em;
+  border-radius: 3em;
   box-shadow: 0 3px 5px 0 rgba(154,160,185,.05), 0 10px 20px 0 rgba(166,173,201,.2);
 
   -webkit-transition:   all .3s ease-in-out;
@@ -363,8 +363,8 @@ img.wallpaper:hover {
   position: absolute;
   display: flex;
   height: 50px;
-  right: 60px;
-  top: 55vh;
+  left: 50px;
+  bottom: 45px;
   justify-content: center;
   align-items: center;
 }
@@ -459,6 +459,13 @@ img.wallpaper:hover {
     position: absolute;
     left: 0;
   }
+
+  .chaCol{
+    left: inherit;
+    right: 75px;
+    bottom: 110px
+  }
+
 }
 
 

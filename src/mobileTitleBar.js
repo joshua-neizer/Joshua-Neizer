@@ -50,10 +50,10 @@ const TitleBar = () =>{
                     <a href="javascript:void(0);" className="icon" onClick={() => {mobileNav()}}>
                         <i className="fa fa-bars"></i>
                     </a>
-                        <Link style = {{color: mult [state [0]]}} className= "mobLink" to="Home"   onClick={() => {setState([0, 1, 1, 1]);}}>Home</Link>
-                        <Link style = {{color: mult [state [1]]}} className= "mobLink" to="Resume" onClick={() => {setState([1, 0, 1, 1]);}}>Resume</Link>
-                        <Link style = {{color: mult [state [2]]}} className= "mobLink" to="Projects"onClick={() => {setState([1, 1, 0, 1]);}}>Projects</Link>
-                        <Link style = {{color: mult [state [3]]}} className= "mobLink" to="Contact"onClick={() => {setState([1, 1, 1, 0]);}}>Contact</Link>
+                        <Link style = {{color: mult [state [0]]}} className= "mobLink" to="Home"    onClick={() => {setState([0, 1, 1, 1]); mobileNav();}}>Home</Link>
+                        <Link style = {{color: mult [state [1]]}} className= "mobLink" to="Resume"  onClick={() => {setState([1, 0, 1, 1]); mobileNav();}}>Resume</Link>
+                        <Link style = {{color: mult [state [2]]}} className= "mobLink" to="Projects"onClick={() => {setState([1, 1, 0, 1]); mobileNav();}}>Projects</Link>
+                        <Link style = {{color: mult [state [3]]}} className= "mobLink" to="Contact" onClick={() => {setState([1, 1, 1, 0]); mobileNav();}}>Contact</Link>
                         <a className= "mobLink" href="https://www.linkedin.com/in/joshua-neizer-395ba7140/" target="_blank">LinkedIn</a>
                 </div>
             </div>
