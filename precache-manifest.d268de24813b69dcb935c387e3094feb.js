@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6b9c65318060b646076e5bce9069fb07",
+    "revision": "de01fde297a27a31b277ee8ab00868bc",
     "url": "/Joshua-Neizer/index.html"
   },
   {
-    "revision": "28234a8d37929b01da61",
-    "url": "/Joshua-Neizer/static/css/main.615f7aa7.chunk.css"
+    "revision": "0af0104651e479a4211c",
+    "url": "/Joshua-Neizer/static/css/main.38c5eec1.chunk.css"
   },
   {
     "revision": "7d619315536b468121a4",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Joshua-Neizer/static/js/2.0ae80fa0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "28234a8d37929b01da61",
-    "url": "/Joshua-Neizer/static/js/main.8cd6258b.chunk.js"
+    "revision": "0af0104651e479a4211c",
+    "url": "/Joshua-Neizer/static/js/main.6b664339.chunk.js"
   },
   {
     "revision": "073c103e96409a29dafc",
