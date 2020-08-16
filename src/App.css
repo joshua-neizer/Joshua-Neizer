@@ -57,7 +57,7 @@ div.home{
 }
 
 #home{
-  background-image: url('images/photo-1493397212122-2b85dda8106b.jfif');
+  background-image: url('./images/9hgan8ehx2211.jpg');
   -webkit-transition:   all 1s ease-in-out;
       -moz-transition:  all 1s ease-in-out;
        -ms-transition:  all 1s ease-in-out;
@@ -335,7 +335,7 @@ img.wallpaper {
   object-fit: cover;
   border: solid 3px white;
   border-radius: 3em;
-  box-shadow: 0 3px 5px 0 rgba(154,160,185,.05), 0 10px 20px 0 rgba(166,173,201,.2);
+  /* box-shadow: 0 3px 5px 0 rgba(154,160,185,.05), 0 10px 20px 0 rgba(166,173,201,.2); */
 
   -webkit-transition:   all .3s ease-in-out;
       -moz-transition:  all .3s ease-in-out;
@@ -363,7 +363,7 @@ img.wallpaper:hover {
   position: absolute;
   display: flex;
   height: 50px;
-  left: 50px;
+  left: 80px;
   bottom: 45px;
   justify-content: center;
   align-items: center;
@@ -375,7 +375,7 @@ img.wallpaper:hover {
   object-fit: cover;
   border: solid 3px white;
   border-radius: 2em;
-  box-shadow: 0 3px 5px 0 rgba(154,160,185,.05), 0 10px 20px 0 rgba(166,173,201,.2);
+  /* box-shadow: 0 3px 5px 0 rgba(154,160,185,.05), 0 10px 20px 0 rgba(166,173,201,.2); */
 
   -webkit-transition:   all .3s ease-in-out;
       -moz-transition:  all .3s ease-in-out;
@@ -494,7 +494,7 @@ img.wallpaper:hover {
   }
 }
 
-@media screen and (max-width: 975px){
+@media screen and (max-width: 499px){
   .github-cont{
     position: absolute;
     left: 5vw;

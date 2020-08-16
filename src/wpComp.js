@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import * as Filter from './filterColour'
 
-import WP1 from './images/photo-1493397212122-2b85dda8106b.jfif';
+import WP1 from './images/9hgan8ehx2211.jpg';
 import WP2 from './images/1lie81kf9w831.jpg';
-import WP3 from './images/9hgan8ehx2211.jpg';
+import WP3 from './images/11-0-Color-Day.jpg';
 import WP4 from './images/MTU3MzgzNTMzOTA2Njk5NDY2.jpg';
 
 function changeWP(photo){
@@ -16,9 +16,9 @@ function changeTheme(colour){
 }
 
 const Themes = {
-    themeA: ["#f5deb3", "#ECEBE4", "#CC998D", "#153B50", "#A89F68"],
+    themeA: ["#f5deb3", "#7D98A1", "#F4D6CC", "#F4B860", "#A9B4C2"],
     themeB: ["#16BAC5", "#5FBFF9", "#EFE9F4", "#171D1C", "#5863F8"],
-    themeC: ["#EEF1EF", "#7D98A1", "#F4D6CC", "#F4B860", "#A9B4C2"],
+    themeC: ["#36393B", "#A5D8FF", "#AFD0D6", "#BFB6BB", "#C49799"],
     themeD: ["#A37871", "#BEA2C2", "#BDADEA", "#4381C1", "#ACF7C1"]
 }
 
