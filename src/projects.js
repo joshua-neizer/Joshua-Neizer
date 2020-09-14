@@ -13,7 +13,7 @@ export default (props) => {
   return (
     <div class="project-gallery fade">
         <div class="project-card">
-            <a href="http://192.168.2.44/.API/" target="_blank">
+            <a href="http://184.147.135.192/.API/" target="_blank">
                 <div class="project PA">
                     <img class="project-icon" src={html_icon}/>
                     <div class="project-title">Rest API</div>
@@ -21,7 +21,7 @@ export default (props) => {
             </a>
         </div>
         <div class="project-card">
-            <a href="http://192.168.2.44/" target="_blank">
+            <a href="https://github.com/QMIND-Team/Lyric-Gen" target="_blank">
                 <div class="project PB">
                     <img class="project-icon" src={AI_icon}/>
                     <div class="project-title">Lyric Generation AI</div>
@@ -29,7 +29,7 @@ export default (props) => {
             </a>
         </div>
         <div class="project-card">
-            <a href="http://192.168.2.44/.MLApp/" target="_blank">
+            <a href="http://184.147.135.192/.MLApp/" target="_blank">
                 <div class="project PC">
                     <img class="project-icon" src={AI_icon}/>
                     <div class="project-title">Dog Breed Analyzer</div>
