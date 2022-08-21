@@ -17,28 +17,24 @@ function mobileNav() {
     }
 }
 
-function setup(){
-    switch (document.URL.split("/").slice(-1)[0]) {
-        case "Home":
-            return [0, 1, 1, 1];
-        case "Resume":
-            return [1, 0, 1, 1];
-        case "Projects":
-            return [1, 1, 0, 1];
-        case "Contact":
-            return [1, 1, 1, 0];
-        default:
-            return [0, 1, 1, 1];
-    }
-}
-
 const TitleBar = () =>{
-    const [state, setState] = useState(setup());
+    const [nav, setNav] = useState(document.URL.split("/").slice(-1)[0]);
+
+    var navButtons = [];
 
     React.useEffect(() => {
             document.getElementsByClassName('responsive')[0].style.height =  (document.getElementsByClassName('home')[0].clientHeight - 50) + "px";
             
       }, [], [], []);
+
+
+    const createNav = (destination) => {
+        return(<Link style = {{color: mult[nav === destination ? 0 : 1]}} className= "mobLink" to={destination} onClick={() => {setNav(destination); mobileNav();}}>{destination}</Link>)
+    }
+
+    for (var destination of ["Home", "Resume", "Portfolio", "Contact"]){
+        navButtons.push(createNav(destination))
+    }
 
     return (    
         <div className ="titlebar">
@@ -50,10 +46,7 @@ const TitleBar = () =>{
                     <a href="javascript:void(0);" className="icon" onClick={() => {mobileNav()}}>
                         <i className="fa fa-bars"></i>
                     </a>
-                        <Link style = {{color: mult [state [0]]}} className= "mobLink" to="Home"    onClick={() => {setState([0, 1, 1, 1]); mobileNav();}}>Home</Link>
-                        <Link style = {{color: mult [state [1]]}} className= "mobLink" to="Resume"  onClick={() => {setState([1, 0, 1, 1]); mobileNav();}}>Resume</Link>
-                        <Link style = {{color: mult [state [2]]}} className= "mobLink" to="Projects"onClick={() => {setState([1, 1, 0, 1]); mobileNav();}}>Projects</Link>
-                        <Link style = {{color: mult [state [3]]}} className= "mobLink" to="Contact" onClick={() => {setState([1, 1, 1, 0]); mobileNav();}}>Contact</Link>
+                        {navButtons}
                         <a className= "mobLink" href="https://www.linkedin.com/in/joshua-neizer-395ba7140/" target="_blank">LinkedIn</a>
                 </div>
             </div>

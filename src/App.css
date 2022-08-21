@@ -1,6 +1,6 @@
 :root {
-  --colour-theme: wheat; 
-  --filter-theme: invert(96%) sepia(7%) saturate(2405%) hue-rotate(315deg) brightness(106%) contrast(92%); 
+  --colour-theme: #a9b4c2; 
+  --filter-theme: invert(62%) sepia(26%) saturate(263%) hue-rotate(149deg) brightness(90%) contrast(87%); 
 }
 
 .App {

@@ -10,7 +10,7 @@ export default (props) => {
         <div class="container-A">
             <div class="box-in email">
                 <div class="icon-container">
-                    <img class="icy" src={email_icon}/>
+                    <img class="icy" src={email_icon} alt="email"/>
                 </div>
                 <div class="title">email</div>
                 <div class="contact-text">joshua.neizer@gmail.com</div>
@@ -19,7 +19,7 @@ export default (props) => {
         <div class="container-A">
             <div class="box-in phone">
                 <div class="icon-container">
-                    <img class="icy" src={phone_icon}/>
+                    <img class="icy" src={phone_icon} alt="phone"/>
                 </div>
                 <div class="title">phone</div>
                 <div class="contact-text">(416)-669-4607</div>
@@ -28,7 +28,7 @@ export default (props) => {
         <div class="container-A">
             <div class="box-in house">
                 <div class="icon-container">
-                    <img class="icy" src={home_icon}/>
+                    <img class="icy" src={home_icon} alt="Home"/>
                 </div>
                 <div class="title">home</div>
                 <div class="contact-text">Oakville, Ontario</div>
