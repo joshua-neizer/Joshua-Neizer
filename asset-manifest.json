@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Joshua-Neizer/static/css/main.84753d12.chunk.css",
-    "main.js": "/Joshua-Neizer/static/js/main.1d5d1670.chunk.js",
-    "main.js.map": "/Joshua-Neizer/static/js/main.1d5d1670.chunk.js.map",
+    "main.js": "/Joshua-Neizer/static/js/main.a8f3de67.chunk.js",
+    "main.js.map": "/Joshua-Neizer/static/js/main.a8f3de67.chunk.js.map",
     "runtime-main.js": "/Joshua-Neizer/static/js/runtime-main.7f4c9156.js",
     "runtime-main.js.map": "/Joshua-Neizer/static/js/runtime-main.7f4c9156.js.map",
     "static/js/2.58e6ef42.chunk.js": "/Joshua-Neizer/static/js/2.58e6ef42.chunk.js",
     "static/js/2.58e6ef42.chunk.js.map": "/Joshua-Neizer/static/js/2.58e6ef42.chunk.js.map",
     "index.html": "/Joshua-Neizer/index.html",
-    "precache-manifest.1035be6de004eb301312f771c8ff475a.js": "/Joshua-Neizer/precache-manifest.1035be6de004eb301312f771c8ff475a.js",
+    "precache-manifest.29f43bded119d55819a6b956c169fef6.js": "/Joshua-Neizer/precache-manifest.29f43bded119d55819a6b956c169fef6.js",
     "service-worker.js": "/Joshua-Neizer/service-worker.js",
     "static/css/main.84753d12.chunk.css.map": "/Joshua-Neizer/static/css/main.84753d12.chunk.css.map",
     "static/js/2.58e6ef42.chunk.js.LICENSE.txt": "/Joshua-Neizer/static/js/2.58e6ef42.chunk.js.LICENSE.txt",
@@ -16,8 +16,8 @@
     "static/media/1lie81kf9w831.jpg": "/Joshua-Neizer/static/media/1lie81kf9w831.f3b3f29c.jpg",
     "static/media/App.css": "/Joshua-Neizer/static/media/9hgan8ehx2211.4357b13a.jpg",
     "static/media/AI-icon.webp": "/Joshua-Neizer/static/media/AI-icon.75fcf280.webp",
-    "static/media/Joshua_Neizer_Resume.pdf": "/Joshua-Neizer/static/media/Joshua_Neizer_Resume.b9613919.pdf",
-    "static/media/Joshua_Neizer_Resume.svg": "/Joshua-Neizer/static/media/Joshua_Neizer_Resume.d264c611.svg",
+    "static/media/Joshua_Neizer_Resume.svg": "/Joshua-Neizer/static/media/Joshua_Neizer_Resume.2ed15d7b.svg",
+    "static/media/Joshua_Neizer_Resume.pdf": "/Joshua-Neizer/static/media/Joshua_Neizer_Resume.8a2929a7.pdf",
     "static/media/MTU3MzgzNTMzOTA2Njk5NDY2.jpg": "/Joshua-Neizer/static/media/MTU3MzgzNTMzOTA2Njk5NDY2.5402ec03.jpg",
     "static/media/a3_20104131.pdf": "/Joshua-Neizer/static/media/a3_20104131.7a1267f7.pdf",
     "static/media/assembly_language_lab.s": "/Joshua-Neizer/static/media/assembly_language_lab.f6856c26.s",
@@ -32,6 +32,6 @@
     "static/js/runtime-main.7f4c9156.js",
     "static/js/2.58e6ef42.chunk.js",
     "static/css/main.84753d12.chunk.css",
-    "static/js/main.1d5d1670.chunk.js"
+    "static/js/main.a8f3de67.chunk.js"
   ]
 }
