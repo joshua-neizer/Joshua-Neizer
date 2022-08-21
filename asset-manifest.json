@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/Joshua-Neizer/static/css/main.84753d12.chunk.css",
-    "main.js": "/Joshua-Neizer/static/js/main.005b7299.chunk.js",
-    "main.js.map": "/Joshua-Neizer/static/js/main.005b7299.chunk.js.map",
+    "main.js": "/Joshua-Neizer/static/js/main.1d5d1670.chunk.js",
+    "main.js.map": "/Joshua-Neizer/static/js/main.1d5d1670.chunk.js.map",
     "runtime-main.js": "/Joshua-Neizer/static/js/runtime-main.7f4c9156.js",
     "runtime-main.js.map": "/Joshua-Neizer/static/js/runtime-main.7f4c9156.js.map",
-    "static/js/2.337db9cc.chunk.js": "/Joshua-Neizer/static/js/2.337db9cc.chunk.js",
-    "static/js/2.337db9cc.chunk.js.map": "/Joshua-Neizer/static/js/2.337db9cc.chunk.js.map",
+    "static/js/2.58e6ef42.chunk.js": "/Joshua-Neizer/static/js/2.58e6ef42.chunk.js",
+    "static/js/2.58e6ef42.chunk.js.map": "/Joshua-Neizer/static/js/2.58e6ef42.chunk.js.map",
     "index.html": "/Joshua-Neizer/index.html",
-    "precache-manifest.11940fd451b2cae397d43dbcbda2c4e5.js": "/Joshua-Neizer/precache-manifest.11940fd451b2cae397d43dbcbda2c4e5.js",
+    "precache-manifest.1035be6de004eb301312f771c8ff475a.js": "/Joshua-Neizer/precache-manifest.1035be6de004eb301312f771c8ff475a.js",
     "service-worker.js": "/Joshua-Neizer/service-worker.js",
     "static/css/main.84753d12.chunk.css.map": "/Joshua-Neizer/static/css/main.84753d12.chunk.css.map",
-    "static/js/2.337db9cc.chunk.js.LICENSE.txt": "/Joshua-Neizer/static/js/2.337db9cc.chunk.js.LICENSE.txt",
+    "static/js/2.58e6ef42.chunk.js.LICENSE.txt": "/Joshua-Neizer/static/js/2.58e6ef42.chunk.js.LICENSE.txt",
     "static/media/11-0-Color-Day.jpg": "/Joshua-Neizer/static/media/11-0-Color-Day.cf12dd2e.jpg",
     "static/media/1lie81kf9w831.jpg": "/Joshua-Neizer/static/media/1lie81kf9w831.f3b3f29c.jpg",
     "static/media/App.css": "/Joshua-Neizer/static/media/9hgan8ehx2211.4357b13a.jpg",
     "static/media/AI-icon.webp": "/Joshua-Neizer/static/media/AI-icon.75fcf280.webp",
-    "static/media/Joshua Neizer Resume.svg": "/Joshua-Neizer/static/media/Joshua Neizer Resume.d66f0e49.svg",
+    "static/media/Joshua_Neizer_Resume.pdf": "/Joshua-Neizer/static/media/Joshua_Neizer_Resume.b9613919.pdf",
+    "static/media/Joshua_Neizer_Resume.svg": "/Joshua-Neizer/static/media/Joshua_Neizer_Resume.d264c611.svg",
     "static/media/MTU3MzgzNTMzOTA2Njk5NDY2.jpg": "/Joshua-Neizer/static/media/MTU3MzgzNTMzOTA2Njk5NDY2.5402ec03.jpg",
     "static/media/a3_20104131.pdf": "/Joshua-Neizer/static/media/a3_20104131.7a1267f7.pdf",
     "static/media/assembly_language_lab.s": "/Joshua-Neizer/static/media/assembly_language_lab.f6856c26.s",
@@ -29,8 +30,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7f4c9156.js",
-    "static/js/2.337db9cc.chunk.js",
+    "static/js/2.58e6ef42.chunk.js",
     "static/css/main.84753d12.chunk.css",
-    "static/js/main.005b7299.chunk.js"
+    "static/js/main.1d5d1670.chunk.js"
   ]
 }

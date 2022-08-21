@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fd7b090cdbae179328f3505b7008a5d8",
+    "revision": "47c56954ac85af8516cdc12cd0c6676c",
     "url": "/Joshua-Neizer/index.html"
   },
   {
-    "revision": "d70c2077b4632ad5a46b",
+    "revision": "3bfa35113108e9fa78c2",
     "url": "/Joshua-Neizer/static/css/main.84753d12.chunk.css"
   },
   {
-    "revision": "d5b6494c62ee254fbbb4",
-    "url": "/Joshua-Neizer/static/js/2.337db9cc.chunk.js"
+    "revision": "6aadf11cb1282c17578e",
+    "url": "/Joshua-Neizer/static/js/2.58e6ef42.chunk.js"
   },
   {
     "revision": "4ba1a1c11c57ed15aa68008707a3d6b4",
-    "url": "/Joshua-Neizer/static/js/2.337db9cc.chunk.js.LICENSE.txt"
+    "url": "/Joshua-Neizer/static/js/2.58e6ef42.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d70c2077b4632ad5a46b",
-    "url": "/Joshua-Neizer/static/js/main.005b7299.chunk.js"
+    "revision": "3bfa35113108e9fa78c2",
+    "url": "/Joshua-Neizer/static/js/main.1d5d1670.chunk.js"
   },
   {
     "revision": "073c103e96409a29dafc",
@@ -40,8 +40,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Joshua-Neizer/static/media/AI-icon.75fcf280.webp"
   },
   {
-    "revision": "d66f0e49d06e654f0b2ed17e41ad8f0a",
-    "url": "/Joshua-Neizer/static/media/Joshua Neizer Resume.d66f0e49.svg"
+    "revision": "b9613919392692ad10c9ca31d6de1987",
+    "url": "/Joshua-Neizer/static/media/Joshua_Neizer_Resume.b9613919.pdf"
+  },
+  {
+    "revision": "d264c611b2e33037ee739375c531a58f",
+    "url": "/Joshua-Neizer/static/media/Joshua_Neizer_Resume.d264c611.svg"
   },
   {
     "revision": "5402ec031c24782c7311f6be67fe6773",
