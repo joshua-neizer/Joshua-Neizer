@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "81ccc533e4b85388e369dc17e206035b",
+    "revision": "fd7b090cdbae179328f3505b7008a5d8",
     "url": "/Joshua-Neizer/index.html"
   },
   {
-    "revision": "13baac014a7f522542cc",
-    "url": "/Joshua-Neizer/static/css/main.1eb7be9b.chunk.css"
+    "revision": "d70c2077b4632ad5a46b",
+    "url": "/Joshua-Neizer/static/css/main.84753d12.chunk.css"
   },
   {
-    "revision": "7d619315536b468121a4",
-    "url": "/Joshua-Neizer/static/js/2.0ae80fa0.chunk.js"
+    "revision": "d5b6494c62ee254fbbb4",
+    "url": "/Joshua-Neizer/static/js/2.337db9cc.chunk.js"
   },
   {
     "revision": "4ba1a1c11c57ed15aa68008707a3d6b4",
-    "url": "/Joshua-Neizer/static/js/2.0ae80fa0.chunk.js.LICENSE.txt"
+    "url": "/Joshua-Neizer/static/js/2.337db9cc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "13baac014a7f522542cc",
-    "url": "/Joshua-Neizer/static/js/main.b7f4dd66.chunk.js"
+    "revision": "d70c2077b4632ad5a46b",
+    "url": "/Joshua-Neizer/static/js/main.005b7299.chunk.js"
   },
   {
     "revision": "073c103e96409a29dafc",
@@ -56,6 +56,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Joshua-Neizer/static/media/assembly_language_lab.f6856c26.s"
   },
   {
+    "revision": "2649102990c0d525553f7dabd7974865",
+    "url": "/Joshua-Neizer/static/media/estimate-icon.26491029.png"
+  },
+  {
     "revision": "bbd7ea09104a9707bc227ac51f07732e",
     "url": "/Joshua-Neizer/static/media/github-icon.bbd7ea09.webp"
   },
@@ -68,8 +72,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Joshua-Neizer/static/media/java-icon.05ecedd1.webp"
   },
   {
-    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
-    "url": "/Joshua-Neizer/static/media/logo.5d5d9eef.svg"
+    "revision": "55f8da9629865ccb4c37bc65380d2c01",
+    "url": "/Joshua-Neizer/static/media/network-icon.55f8da96.png"
   },
   {
     "revision": "45aa6d1b5aea5ca8ab0e82156370a657",
