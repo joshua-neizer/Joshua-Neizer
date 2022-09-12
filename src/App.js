@@ -8,6 +8,7 @@ import Contact from './contact';
 import Portfolio from './portfolio';
 import WPComp from './wpComp';
 import useWindowSize from './windowDimensions';
+import resume_pdf from './images/Joshua_Neizer_Resume.pdf'
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import github_icon from './images/github-icon.webp';
@@ -35,7 +36,7 @@ function App() {
                             <div className="resume">RESUME</div>
                             <br />
                             <div className="button button-resume">
-                                <a href="./images/Joshua Neizer Resume.pdf" target="_blank" download>Download</a>
+                                <a href={resume_pdf} target="_blank" download>Download</a>
                             </div>
                         </div>
                     </Route>

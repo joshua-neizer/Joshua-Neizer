@@ -1,6 +1,6 @@
 import React from 'react';
 
-import resume from './images/Joshua Neizer Resume.svg';
+import resume from './images/Joshua_Neizer_Resume.svg';
 
 export default (props) => {
 
