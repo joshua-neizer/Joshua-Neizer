@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "97f2717a74dc2474e759ecdd22eaf51e",
+    "revision": "d70a4ab6548ed73dd3f9953517e01ddf",
     "url": "/Joshua-Neizer/index.html"
   },
   {
-    "revision": "c45b559b603056c2acba",
+    "revision": "1c9566536a0838c27b84",
     "url": "/Joshua-Neizer/static/css/main.406deb14.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Joshua-Neizer/static/js/2.58e6ef42.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c45b559b603056c2acba",
-    "url": "/Joshua-Neizer/static/js/main.bd561b67.chunk.js"
+    "revision": "1c9566536a0838c27b84",
+    "url": "/Joshua-Neizer/static/js/main.a7defc32.chunk.js"
   },
   {
     "revision": "073c103e96409a29dafc",
@@ -40,12 +40,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Joshua-Neizer/static/media/AI-icon.75fcf280.webp"
   },
   {
-    "revision": "0278382fb348c082614a7b3637d2c33c",
-    "url": "/Joshua-Neizer/static/media/Joshua_Neizer_Resume.0278382f.pdf"
+    "revision": "6fd3725d1223cd3c87037d0e71b7bb36",
+    "url": "/Joshua-Neizer/static/media/Joshua_Neizer_Resume.6fd3725d.svg"
   },
   {
-    "revision": "dadb15151eabc3c6862bdf15dc9592ab",
-    "url": "/Joshua-Neizer/static/media/Joshua_Neizer_Resume.dadb1515.svg"
+    "revision": "844f7f8100ec6b6920acd072c59fffde",
+    "url": "/Joshua-Neizer/static/media/Joshua_Neizer_Resume.844f7f81.pdf"
   },
   {
     "revision": "5402ec031c24782c7311f6be67fe6773",
