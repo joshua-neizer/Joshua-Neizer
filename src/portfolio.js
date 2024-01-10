@@ -14,7 +14,7 @@ export default () => {
     return (
         <div class="project-gallery fade">
             <div class="project-card">
-                <a href="https://estimate-96507.nn.r.appspot.com/" target="_blank" rel="noopener noreferrer">
+                <a href="https://estimate-96507.nn.r.appspot.com/welcome" target="_blank" rel="noopener noreferrer">
                     <div class="project PA">
                         <img class="project-icon" src={estimate_icon} />
                         <div class="project-title">EstiMate</div>
